@@ -1,0 +1,28 @@
+@charset "EUC-KR";
+
+ul.poem, ol.poem{
+	list-syle:none;
+	margin:10px;
+	padding:10px;
+	height:100%;
+	width:70%;  
+}
+
+ul.poem li, ol.poem li {
+    display: inline-block;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+ul.poem li,
+ol.poem li {
+    transition: background-color 0.3s linear;
+}
+  
+ul.poem li:hover,
+ol.poem li:hover {
+    background-color: #f6f6f6;
+}

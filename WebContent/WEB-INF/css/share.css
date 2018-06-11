@@ -1,0 +1,31 @@
+@charset "EUC-KR";
+
+.Btn {
+	border: none;
+    color: white;
+    padding: 10px 27px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+}
+
+.Btn:hover {
+    background-color: #555555;
+    color: white;
+}
+
+li{
+	display: inline-block;
+	padding: 10px;
+    margin: 5px;
+    border: 1px solid #efefef;
+    font-size: 12px;
+    cursor: pointer;
+}

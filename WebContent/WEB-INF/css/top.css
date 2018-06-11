@@ -1,0 +1,27 @@
+/* #topMenu{
+	background-color: #FFFFFF;
+	position: fixed static;
+	color: #5a5652;
+	align-content: center;
+	vertical-align: center;
+	left:0%
+} */
+
+.MenuFix{
+	width:100%;
+	background-color: #FFFFFF;
+	align-content: center;
+	vertical-align: center;
+}
+
+#logo{
+	position: static;
+	widows: 100px;
+	height: 100px;
+	align-self: center;
+}
+
+
+a:link{color:#5a5652; text-decoration: none;}
+a:visited{color:#000000; font-weight:bold; text-decoration: none;}
+a:hover{color:#808080; text-decoration: none;}
